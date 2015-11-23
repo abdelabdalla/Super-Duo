@@ -19,7 +19,6 @@
         android:text="Team 1"
         android:id="@+id/home"
         android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/score"
         android:layout_toStartOf="@+id/score" />
 
     <TextView
@@ -29,6 +28,5 @@
         android:text="Team 2"
         android:id="@+id/away"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/score"
         android:layout_toEndOf="@+id/score" />
 </RelativeLayout>
